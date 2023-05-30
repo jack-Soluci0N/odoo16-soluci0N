@@ -12,8 +12,8 @@ services:
     - PASSWORD=soluci-ON
     volumes:
       - odoo-web-data:/var/lib/odoo
-      - ./odoo/config:/etc/odoo
-      - ./odoo/addons:/mnt/extra-addons
+      - ./config:/etc/odoo
+      - ./addons:/mnt/extra-addons
   soluci0ndb:
     image: postgres:latest
     environment:
