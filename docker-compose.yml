@@ -6,7 +6,7 @@ services:
       - soluci0ndb
     ports:
       - "8069:8069"
-     environment:
+    environment:
     - HOST=soluci0ndb
     - USER=odoo
     - PASSWORD=soluci-ON
